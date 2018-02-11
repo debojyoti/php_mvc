@@ -1,0 +1,29 @@
+{
+    "name": "debojyoti/private",
+    "authors": [
+        {
+            "name": "dsahapersonal",
+            "email": "dsahapersonal@gmail.com"
+        }
+    ],
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://dsahapersonal@bitbucket.org/dsahapersonal/pdoconnect.git",
+            "autoload": {
+                "psr-4" : {
+                    "dsahapersonal\\pdoconnect" : "src"
+                }
+            }
+        }
+    ],
+      "require": {
+        "dsahapersonal/pdoconnect": "dev-master"
+    },
+    "autoload":{
+        "psr-4":{
+            "Scholarly\\" : "classes/"
+        }
+    }
+
+}

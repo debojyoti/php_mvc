@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  border: 0;
+  padding: 0; }
+
+.main {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(3, 10fr);
+  background: linear-gradient(purple, blue); }
+  .main-box {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    background-color: orange; }
+    .main-box-content {
+      grid-column: 2;
+      padding-top: 5rem;
+      font-size: 2rem;
+      color: white;
+      background-color: black;
+      text-align: center; }

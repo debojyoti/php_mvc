@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "16585fbf6145dd2479421a66d585d0e3",
+    "packages": [
+        {
+            "name": "dsahapersonal/pdoconnect",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://dsahapersonal@bitbucket.org/dsahapersonal/pdoconnect.git",
+                "reference": "000285398e546712991aa5014ad35aa7e42db38b"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "dsahapersonal\\pdoconnect\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dsahapersonal",
+                    "email": "dsahapersonal@gmail.com"
+                }
+            ],
+            "description": "Make database connection",
+            "time": "2018-01-07T17:42:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "dsahapersonal/pdoconnect": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
